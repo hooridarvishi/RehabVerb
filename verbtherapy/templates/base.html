@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کارت‌های آموزشی</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+
+        .bg-gray-100{
+            background-color: lightblue;
+        }
+        body {
+            font-family: 'Vazir', sans-serif;
+        }
+        .btn {
+            @apply px-4 py-2 rounded font-bold cursor-pointer;
+        }
+        .btn-primary {
+            @apply bg-blue-500 text-white hover:bg-blue-600;
+        }
+        .btn-danger {
+            @apply bg-red-500 text-white hover:bg-red-600;
+        }
+        .btn-success {
+            @apply bg-green-500 text-white hover:bg-green-600;
+        }
+        .blank-space {
+            width: 150px;
+            height: 30px;
+            border: 2px dashed #ccc;
+            display: inline-block;
+            margin: 0 10px;
+            padding: 5px;
+        }
+        .draggable {
+            cursor: move;
+            padding: 10px;
+            background-color: #f0f0f0;
+            margin: 5px;
+            display: inline-block;
+        }
+        .text-container {
+            margin: 20px;
+            text-align: right;
+            direction: rtl;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    {% block content %}
+    {% endblock %}
+</body>
+</html>

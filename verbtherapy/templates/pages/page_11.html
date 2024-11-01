@@ -1,0 +1,145 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mx-auto p-4">
+    <div id="image-container" class="mb-4">
+        <img src="{{ card.image.url }}" alt="{{ card.title }}" class="w-full max-w-md mx-auto">
+        <button onclick="toggleImage({{ card.id }})" class="btn btn-danger mt-2">حذف عکس</button>
+        <button onclick="toggleImage({{ card.id }})" class="btn btn-success mt-2 hidden" id="restore-image">بازگردانی عکس</button>
+    </div>
+
+    <div id="text-container" class="mb-4">
+        <button onclick="toggleText({{ card.id }}, 'verb')" class="btn btn-success mt-2" id="restore-text">بازگردانی جمله</button>
+    </div>
+{##}
+    <p class="text-xl font-bold mb-4">
+
+    فاعل جمله کیست ؟
+    </p>
+    <p class="text-xl font-bold mb-4">
+جایگاه فاعل را مشخص کن:
+        <br><br>
+                <div id="text-area">
+            {{ template.template_text }}
+            <div class="blank-space" ondrop="drop(event, 2)" ondragover="allowDrop(event)">
+                {{ template.blank2_text }}
+            </div>
+            <div class="blank-space" ondrop="drop(event, 3)" ondragover="allowDrop(event)">
+                {{ template.blank3_text }}
+            </div>
+        </div>
+
+        <div id="options">
+            <div class="draggable" draggable="true" ondragstart="drag(event)">
+            {{ card.subject }}
+            </div>
+
+        </div>
+    <hr style="color: black">
+    اکنون ، فاعل جمله را بخوان
+    </p>
+    <a href="{% url 'card_detail' card.id 12 %}" class="btn btn-primary">
+    بریم تمرین بعدی
+    </a>
+
+</div>
+<script>
+function toggleImage(cardId) {
+    const imageContainer = document.getElementById('image-container');
+    const img = imageContainer.querySelector('img');
+    const deleteBtn = imageContainer.querySelector('.btn-danger');
+    const restoreBtn = imageContainer.querySelector('.btn-success');
+
+    if (img.style.display !== 'none') {
+        img.style.display = 'none';
+        deleteBtn.style.display = 'none';
+        restoreBtn.style.display = 'block';
+    } else {
+        img.style.display = 'block';
+        deleteBtn.style.display = 'block';
+        restoreBtn.style.display = 'none';
+    }
+
+    fetch(`/toggle-image/${cardId}/`, {
+        method: 'POST',
+        headers: {
+            'X-CSRFToken': getCookie('csrftoken')
+        }
+    });
+}
+
+
+function toggleText(cardId, fieldType) {
+    const textContainer = document.getElementById('text-container');
+    const restoreBtn = textContainer.querySelector('.btn-success');
+    const text = document.createElement('p');
+    text.textContent = '{{ card.subject }} {{ card.verb }}';
+
+    if (restoreBtn.style.display !== 'none') {
+        textContainer.insertBefore(text, restoreBtn);
+        restoreBtn.style.display = 'none';
+        const deleteBtn = document.createElement('button');
+        deleteBtn.className = 'btn btn-danger mt-2';
+        deleteBtn.textContent = 'حذف جمله';
+        deleteBtn.onclick = () => toggleText(cardId, fieldType);
+        textContainer.appendChild(deleteBtn);
+    } else {
+        const paragraphToRemove = textContainer.querySelector('p');
+        if (paragraphToRemove) {
+            paragraphToRemove.remove();
+        }
+        const deleteBtn = textContainer.querySelector('.btn-danger');
+        if (deleteBtn) {
+            deleteBtn.remove();
+        }
+        restoreBtn.style.display = 'block';
+    }
+
+    fetch(`/toggle-text/${cardId}/${fieldType}/`, {
+        method: 'POST',
+        headers: {
+            'X-CSRFToken': getCookie('csrftoken')
+        }
+    });
+}
+function getCookie(name) {
+    let cookieValue = null;
+    if (document.cookie && document.cookie !== '') {
+        const cookies = document.cookie.split(';');
+        for (let i = 0; i < cookies.length; i++) {
+            const cookie = cookies[i].trim();
+            if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("text", ev.target.innerText);
+        }
+
+        function drop(ev, blankNumber) {
+            ev.preventDefault();
+            const text = ev.dataTransfer.getData("text");
+            ev.target.innerText = text;
+
+            fetch('/update-blank/', {
+                method: 'POST',
+                body: JSON.stringify({
+                    blank_number: blankNumber,
+                    text: text
+                }),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+        }
+</script>
+{% endblock %}

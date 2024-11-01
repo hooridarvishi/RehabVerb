@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mx-auto p-4">
+    <p class="text-xl font-bold mb-4">صفحه به خوبی است</p>
+
+    <a href="{% url 'card_detail' card.id 23 %}" class="btn btn-primary">رفتن به صفحه بیست و سوم</a>
+</div>
+{% endblock %}

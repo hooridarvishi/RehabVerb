@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mx-auto p-4">
+    <div id="image-container" class="mb-4">
+        <img src="{{ card.image.url }}" alt="{{ card.title }}" class="w-full max-w-md mx-auto">
+        <button onclick="toggleImage({{ card.id }})" class="btn btn-danger mt-2">حذف عکس</button>
+        <button onclick="toggleImage({{ card.id }})" class="btn btn-success mt-2 hidden" id="restore-image">بازگردانی عکس</button>
+    </div>
+
+    <div id="text-container" class="mb-4">
+        <button onclick="toggleText({{ card.id }}, 'verb')" class="btn btn-success mt-2" id="restore-text">بازگردانی فعل</button>
+    </div>
+
+    <p class="text-xl font-bold mb-4">
+    درمانگر فعل را بخواند
+    </p>
+
+    <a href="{% url 'card_detail' card.id 6 %}" class="btn btn-primary">
+        چند تمرین حل کنیم
+          </a>
+</div>
+
+<script>
+function toggleImage(cardId) {
+    const imageContainer = document.getElementById('image-container');
+    const img = imageContainer.querySelector('img');
+    const deleteBtn = imageContainer.querySelector('.btn-danger');
+    const restoreBtn = imageContainer.querySelector('.btn-success');
+
+    if (img.style.display !== 'none') {
+        img.style.display = 'none';
+        deleteBtn.style.display = 'none';
+        restoreBtn.style.display = 'block';
+    } else {
+        img.style.display = 'block';
+        deleteBtn.style.display = 'block';
+        restoreBtn.style.display = 'none';
+    }
+
+    fetch(`/toggle-image/${cardId}/`, {
+        method: 'POST',
+        headers: {
+            'X-CSRFToken': getCookie('csrftoken')
+        }
+    });
+}
+
+function toggleText(cardId, fieldType) {
+    const textContainer = document.getElementById('text-container');
+    const restoreBtn = textContainer.querySelector('.btn-success');
+    const text = document.createElement('p');
+    text.textContent = '{{ card.verb }}';
+
+    if (restoreBtn.style.display !== 'none') {
+        textContainer.insertBefore(text, restoreBtn);
+        restoreBtn.style.display = 'none';
+        const deleteBtn = document.createElement('button');
+        deleteBtn.className = 'btn btn-danger mt-2';
+        deleteBtn.textContent = 'حذف فعل';
+        deleteBtn.onclick = () => toggleText(cardId, fieldType);
+        textContainer.appendChild(deleteBtn);
+    } else {
+        const paragraphToRemove = textContainer.querySelector('p');
+        if (paragraphToRemove) {
+            paragraphToRemove.remove();
+        }
+        const deleteBtn = textContainer.querySelector('.btn-danger');
+        if (deleteBtn) {
+            deleteBtn.remove();
+        }
+        restoreBtn.style.display = 'block';
+    }
+
+    fetch(`/toggle-text/${cardId}/${fieldType}/`, {
+        method: 'POST',
+        headers: {
+            'X-CSRFToken': getCookie('csrftoken')
+        }
+    });
+}
+
+function getCookie(name) {
+    let cookieValue = null;
+    if (document.cookie && document.cookie !== '') {
+        const cookies = document.cookie.split(';');
+        for (let i = 0; i < cookies.length; i++) {
+            const cookie = cookies[i].trim();
+            if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+</script>
+{##}
+{#<script>#}
+{#// Same JavaScript code as before#}
+{#</script>#}
+{% endblock %}

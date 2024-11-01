@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mx-auto grid grid-cols-2 gap-4 p-4">
+    {% for card in cards %}
+    <div class="card p-4 border rounded shadow hover:shadow-lg cursor-pointer"
+         onclick="window.location='{% url 'card_detail' card.id 1 %}'">
+        <h2 class="text-xl font-bold mb-2">{{ card.title }}</h2>
+{#        <img src="{{ card.image.url }}" alt="{{ card.title }}" class="w-full h-48 object-cover mb-2">#}
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
