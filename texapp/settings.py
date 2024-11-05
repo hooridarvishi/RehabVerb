@@ -38,7 +38,27 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "verbtherapy.apps.VerbtherapyConfig",
+    "storages",
 ]
+import os
+AWS_S3_ENDPOINT_URL = os.getenv("ENDPOINT")
+AWS_STORAGE_BUCKET_NAME = os.getenv("BUCKET_NAME")
+AWS_ACCESS_KEY_ID = os.getenv("ACCESS_KEY")
+AWS_SECRET_ACCESS_KEY = os.getenv("SECRET_KEY")
+AWS_S3_OBJECT_PARAMETERS = {
+  'CacheControl': 'max-age=86400',
+}
+AWS_LOCATION = 'static'
+STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
+BROKER_URL = 'redis://:<admin>@<services.irn2.chabokan.net>:<5432>/<database_number>'
+CELERY_RESULT_BACKEND = 'redis://:<admin>@<>:<services.irn2.chabokan.net>/<database_number>'
+CELERY_ACCEPT_CONTENT = ['application/json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TIMEZONE = 'Asia/Tehran'
+
+
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
@@ -74,14 +94,34 @@ WSGI_APPLICATION = "texapp.wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
-
+#
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.sqlite3",
+#         "NAME": BASE_DIR / "db.sqlite3",
+#     }
+# }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'myproject_aphasia',  # نام دیتابیس جدید
+#         'USER': 'postgres',    # نام کاربری PostgreSQL
+#         'PASSWORD': 'admin',  # پسوردی که در زمان نصب تعیین کرده‌اید
+#         'HOST': 'services.irn2.chabokan.net',   # یا آدرس IP سرور
+#         'PORT': '5432',        # پورت پیش‌فرض PostgreSQL
+#     }
+# }
+import os
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+    'default': {
+        'ENGINE': os.getenv("django.db.backends.postgresql"),
+        'NAME': os.getenv("myproject_aphasia"),
+        'USER': os.getenv("postgres"),
+        'PASSWORD': os.getenv("admin"),
+        'HOST': os.getenv("services.irn2.chabokan.net"),
+        'PORT':  os.getenv("5432"),
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators

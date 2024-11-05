@@ -1,0 +1,1545 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-10-31T01:37:21.180Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "فعل خوابیدن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-10-31T13:27:33.376Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "فعل بوسیدن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-10-31T13:30:19.141Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "فعل نوشتن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-10-31T13:31:36.157Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "فعل دویدن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-10-31T13:32:32.973Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "فعل خوردن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-10-31T13:33:39.122Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "فعل شمردن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-10-31T13:34:16.387Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "فعل ریختن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-10-31T13:34:53.639Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "فعل زدن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-10-31T13:35:57.473Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "فعل شستن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-10-31T13:37:16.672Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "فعل پوشیدن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-10-31T13:38:24.449Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "فعل جارو کردن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-10-31T13:39:20.287Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "فعل بغل کردن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-10-31T13:42:54.111Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "فعل تایپ کردن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-10-31T13:52:30.476Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "فعل حمام کردن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-10-31T13:53:44.075Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "15",
+        "object_repr": "فعل شانه کردن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2024-10-31T13:57:50.098Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "16",
+        "object_repr": "فعل عصبانی شدن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2024-10-31T13:59:45.396Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "17",
+        "object_repr": "فعل فکر کردن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2024-10-31T14:01:06.297Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "18",
+        "object_repr": "فعل نقاشی کردن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2024-10-31T14:02:10.863Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "19",
+        "object_repr": "فعل بو کردن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2024-10-31T14:03:40.402Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "20",
+        "object_repr": "فعل خداحافظی کردن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2024-10-31T14:05:52.554Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "21",
+        "object_repr": "فعل تلفن کردن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2024-10-31T14:08:15.949Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "22",
+        "object_repr": "فعل اتو کردن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2024-10-31T14:09:07.698Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "23",
+        "object_repr": "فعل مرتب کردن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2024-10-31T14:10:19.998Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "24",
+        "object_repr": "فعل شنا کردن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2024-10-31T14:11:11.441Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "25",
+        "object_repr": "فعل دست زدن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2024-10-31T14:12:37.782Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "26",
+        "object_repr": "فعل چشمک زدن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2024-10-31T14:14:07.032Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "27",
+        "object_repr": "فعل لاک زدن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2024-10-31T14:15:10.772Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "28",
+        "object_repr": "فعل مسواک زدن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2024-10-31T14:22:21.669Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "29",
+        "object_repr": "فعل در زدن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2024-10-31T14:23:06.365Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "30",
+        "object_repr": "فعل دست دادن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2024-10-31T14:24:32.202Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "31",
+        "object_repr": "فعل آب خوردن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2024-10-31T14:26:07.558Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "32",
+        "object_repr": "فعل بالا رفتن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2024-10-31T14:27:30.620Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "33",
+        "object_repr": "فعل دویدن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2024-10-31T14:30:32.695Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "34",
+        "object_repr": "فعل نماز خواندن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2024-10-31T14:31:50.980Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "35",
+        "object_repr": "فعل برداشتن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2024-10-31T14:46:14.275Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "36",
+        "object_repr": "فعل خمیازه کشیدن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2024-10-31T14:47:10.945Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "37",
+        "object_repr": "فعل عکس گرفتن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2024-10-31T14:47:28.626Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "36",
+        "object_repr": "فعل خمیازه کشیدن",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Verb\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2024-10-31T14:47:57.451Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "19",
+        "object_repr": "فعل بو کردن",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Verb\", \"Infinitive\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2024-10-31T14:49:31.333Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "38",
+        "object_repr": "فعل وضو گرفتن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2024-10-31T14:50:34.448Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "39",
+        "object_repr": "فعل ناخن گرفتن",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2024-10-31T22:33:08.832Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "فعل خوابیدن",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Subject\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2024-10-31T22:41:31.021Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "فعل خوابیدن",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Subject\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2024-11-01T00:43:42.507Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "فعل خوابیدن",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Pre position\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add card",
+        "content_type": 7,
+        "codename": "add_card"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change card",
+        "content_type": 7,
+        "codename": "change_card"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete card",
+        "content_type": 7,
+        "codename": "delete_card"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view card",
+        "content_type": 7,
+        "codename": "view_card"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add text template",
+        "content_type": 8,
+        "codename": "add_texttemplate"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change text template",
+        "content_type": 8,
+        "codename": "change_texttemplate"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete text template",
+        "content_type": 8,
+        "codename": "delete_texttemplate"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view text template",
+        "content_type": 8,
+        "codename": "view_texttemplate"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$sNStT5H0mNWvq5Kuwkbccb$uLGCJ1toOZ5AWkc33JS7eSwIMES/fU+rfUBZRAx39Xc=",
+        "last_login": "2024-10-31T22:30:30.304Z",
+        "is_superuser": true,
+        "username": "asus",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-10-31T01:36:09.164Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "verbtherapy",
+        "model": "card"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "verbtherapy",
+        "model": "texttemplate"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ealb1gzg0g0hx42o5j9z7d3a014n564l",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pCBgmVcuu8ZyMCAVA0kpV0Z765NutDtf-_9l_C0rcVvPS1-ZnERSpx-t0DxkeoO-E711mRsdV3mIHdFHrTLqXF6Xg_376BQL9-aEEBlR5CzSpaIbWSjR0ijis5kO8SzdgGzhog8BBMQNJiETiEHHpx4fwDwDzf8:1t6dgU:3IAuF7-RdHr1Gq6wrcAtyHSvJie3posZ352vBA8dfhA",
+        "expire_date": "2024-11-14T22:30:30.590Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "qz279hpavac9dtwh7lkab9am1vdre07c",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pCBgmVcuu8ZyMCAVA0kpV0Z765NutDtf-_9l_C0rcVvPS1-ZnERSpx-t0DxkeoO-E711mRsdV3mIHdFHrTLqXF6Xg_376BQL9-aEEBlR5CzSpaIbWSjR0ijis5kO8SzdgGzhog8BBMQNJiETiEHHpx4fwDwDzf8:1t6K6m:ryM58vfhU4GId_doX6MGVSSCAIXinf7f4a5kPBZFg-8",
+        "expire_date": "2024-11-14T01:36:20.661Z"
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 1,
+    "fields": {
+        "title": "فعل خوابیدن",
+        "verb": "می خوابد",
+        "infinitive": "خوابیدن",
+        "image": "cards/Screenshot_2024-10-28_215206.png",
+        "subject": "دختر",
+        "text_mafool": null,
+        "pre_position": "در تخت خواب",
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 2,
+    "fields": {
+        "title": "فعل بوسیدن",
+        "verb": "می بوسد",
+        "infinitive": "بوسیدن",
+        "image": "cards/کتابچه_تصویر_-2.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 3,
+    "fields": {
+        "title": "فعل نوشتن",
+        "verb": "می نویسد",
+        "infinitive": "نوشتن",
+        "image": "cards/کتابچه_تصویر_-4.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 4,
+    "fields": {
+        "title": "فعل دویدن",
+        "verb": "می دود",
+        "infinitive": "دویدن",
+        "image": "cards/کتابچه_تصویر_-5.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 5,
+    "fields": {
+        "title": "فعل خوردن",
+        "verb": "می خورد",
+        "infinitive": "خوردن",
+        "image": "cards/کتابچه_تصویر_-6.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 6,
+    "fields": {
+        "title": "فعل شمردن",
+        "verb": "می شمارد",
+        "infinitive": "شمردن",
+        "image": "cards/کتابچه_تصویر_-7.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 7,
+    "fields": {
+        "title": "فعل ریختن",
+        "verb": "می ریزد",
+        "infinitive": "ریختن",
+        "image": "cards/کتابچه_تصویر_-8.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 8,
+    "fields": {
+        "title": "فعل زدن",
+        "verb": "می زند",
+        "infinitive": "زدن",
+        "image": "cards/کتابچه_تصویر_-9.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 9,
+    "fields": {
+        "title": "فعل شستن",
+        "verb": "می شوید",
+        "infinitive": "شستن",
+        "image": "cards/کتابچه_تصویر_-10.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 10,
+    "fields": {
+        "title": "فعل پوشیدن",
+        "verb": "می پوشد",
+        "infinitive": "پوشیدن",
+        "image": "cards/کتابچه_تصویر_-11.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 11,
+    "fields": {
+        "title": "فعل جارو کردن",
+        "verb": "جارو می کند",
+        "infinitive": "جارو کردن",
+        "image": "cards/کتابچه_تصویر_-12.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 12,
+    "fields": {
+        "title": "فعل بغل کردن",
+        "verb": "بغل می کند",
+        "infinitive": "بغل کردن",
+        "image": "cards/کتابچه_تصویر_-13.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 13,
+    "fields": {
+        "title": "فعل تایپ کردن",
+        "verb": "تایپ می کند",
+        "infinitive": "تایپ کردن",
+        "image": "cards/کتابچه_تصویر_-14.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 14,
+    "fields": {
+        "title": "فعل حمام کردن",
+        "verb": "حمام می کند",
+        "infinitive": "حمام کردن",
+        "image": "cards/کتابچه_تصویر_-15.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 15,
+    "fields": {
+        "title": "فعل شانه کردن",
+        "verb": "شانه می کند",
+        "infinitive": "شانه کردن",
+        "image": "cards/کتابچه_تصویر_-17.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 16,
+    "fields": {
+        "title": "فعل عصبانی شدن",
+        "verb": "عصبانی می شود",
+        "infinitive": "عصبانی شدن",
+        "image": "cards/کتابچه_تصویر_-18.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 17,
+    "fields": {
+        "title": "فعل فکر کردن",
+        "verb": "فکر می کند",
+        "infinitive": "فکر کردن",
+        "image": "cards/کتابچه_تصویر_-19.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 18,
+    "fields": {
+        "title": "فعل نقاشی کردن",
+        "verb": "نقاشی می کند",
+        "infinitive": "نقاشی کردن",
+        "image": "cards/کتابچه_تصویر_-20.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 19,
+    "fields": {
+        "title": "فعل بو کردن",
+        "verb": "بو می کند",
+        "infinitive": "بو کردن",
+        "image": "cards/کتابچه_تصویر_-21.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 20,
+    "fields": {
+        "title": "فعل خداحافظی کردن",
+        "verb": "خداحافظی می کند",
+        "infinitive": "خداحافظی کردن",
+        "image": "cards/کتابچه_تصویر_-22.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 21,
+    "fields": {
+        "title": "فعل تلفن کردن",
+        "verb": "تلفن می کند",
+        "infinitive": "تلفن کردن",
+        "image": "cards/کتابچه_تصویر_-23.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 22,
+    "fields": {
+        "title": "فعل اتو کردن",
+        "verb": "اتو می کند",
+        "infinitive": "اتو کردن",
+        "image": "cards/کتابچه_تصویر_-24.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 23,
+    "fields": {
+        "title": "فعل مرتب کردن",
+        "verb": "مرتب می کند",
+        "infinitive": "مرتب کردن",
+        "image": "cards/کتابچه_تصویر_-25.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 24,
+    "fields": {
+        "title": "فعل شنا کردن",
+        "verb": "شنا می کند",
+        "infinitive": "شنا کردن",
+        "image": "cards/کتابچه_تصویر_-26.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 25,
+    "fields": {
+        "title": "فعل دست زدن",
+        "verb": "دست می زند",
+        "infinitive": "دست زدن",
+        "image": "cards/کتابچه_تصویر_-27.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 26,
+    "fields": {
+        "title": "فعل چشمک زدن",
+        "verb": "چشمک می زند",
+        "infinitive": "چشمک زدن",
+        "image": "cards/کتابچه_تصویر_-28.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 27,
+    "fields": {
+        "title": "فعل لاک زدن",
+        "verb": "لاک می زند",
+        "infinitive": "لاک زدن",
+        "image": "cards/کتابچه_تصویر_-29.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 28,
+    "fields": {
+        "title": "فعل مسواک زدن",
+        "verb": "مسواک می زند",
+        "infinitive": "مسواک زدن",
+        "image": "cards/کتابچه_تصویر_-30.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 29,
+    "fields": {
+        "title": "فعل در زدن",
+        "verb": "در می زند",
+        "infinitive": "در زدن",
+        "image": "cards/کتابچه_تصویر_-31.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 30,
+    "fields": {
+        "title": "فعل دست دادن",
+        "verb": "دست می دهد",
+        "infinitive": "دست دادن",
+        "image": "cards/کتابچه_تصویر_-32.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 31,
+    "fields": {
+        "title": "فعل آب خوردن",
+        "verb": "آب می خورد",
+        "infinitive": "آب خوردن",
+        "image": "cards/کتابچه_تصویر_-33.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 32,
+    "fields": {
+        "title": "فعل بالا رفتن",
+        "verb": "بالا می رود",
+        "infinitive": "بالا رفتن",
+        "image": "cards/کتابچه_تصویر_-34.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 33,
+    "fields": {
+        "title": "فعل دویدن",
+        "verb": "می دود",
+        "infinitive": "دویدن",
+        "image": "cards/کتابچه_تصویر_-35.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 34,
+    "fields": {
+        "title": "فعل نماز خواندن",
+        "verb": "نماز می خواند",
+        "infinitive": "نماز خواندن",
+        "image": "cards/کتابچه_تصویر_-36.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 35,
+    "fields": {
+        "title": "فعل برداشتن",
+        "verb": "برمی دارد",
+        "infinitive": "برداشتن",
+        "image": "cards/کتابچه_تصویر_-37.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 36,
+    "fields": {
+        "title": "فعل خمیازه کشیدن",
+        "verb": "خمیازه می کشد",
+        "infinitive": "خمیازه کشیدن",
+        "image": "cards/کتابچه_تصویر_-38.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 37,
+    "fields": {
+        "title": "فعل عکس گرفتن",
+        "verb": "عگس می گیرد",
+        "infinitive": "عکس گرفتن",
+        "image": "cards/کتابچه_تصویر_-39.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 38,
+    "fields": {
+        "title": "فعل وضو گرفتن",
+        "verb": "فعل وضو می گیرد",
+        "infinitive": "وضو گرفتن",
+        "image": "cards/کتابچه_تصویر_-40.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+},
+{
+    "model": "verbtherapy.card",
+    "pk": 39,
+    "fields": {
+        "title": "فعل ناخن گرفتن",
+        "verb": "ناخن می گیرد",
+        "infinitive": "ناخن گرفتن",
+        "image": "cards/کتابچه_تصویر_-41.jpg",
+        "subject": null,
+        "text_mafool": null,
+        "pre_position": null,
+        "pre_adverb": null,
+        "adverb": null
+    }
+}
+]
